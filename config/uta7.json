@@ -1,0 +1,26 @@
+{
+  "dicomServer":
+  [
+    {
+      "prefix": "://",
+      "transferProtocol": "http",
+      "hostname": "breastscreening.isr.tecnico.ulisboa.pt",
+      "portEscape": ":",
+      "port": "8449",
+      "suffix": "/",
+      "serviceProtocol": "wadouri"
+    }
+  ],
+  "mainServer":
+  [
+    {
+      "prefix": "://",
+      "transferProtocol": "http",
+      "hostname": "breastscreening.isr.tecnico.ulisboa.pt",
+      "portEscape": ":",
+      "port": "8488",
+      "suffix": "/",
+      "hotjar": "850630"
+    }
+  ]
+}
