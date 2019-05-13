@@ -22,6 +22,7 @@
     "dicom-server:multi": "cd .. && cd dicom-server/ && npm run start:multi",
     "build": "webpack -p &",
     "build:multi": "webpack -p &",
+    "build:uta7": "webpack -p &",
     "create:sl": "touch src/common/studyList.json",
     "clean:dataset": "rimraf dataset/*",
     "clean:studies": "rimraf src/common/studies/*",
@@ -33,6 +34,7 @@
     "server": "node src/server/index.js",
     "start:webdash": "npx webdash serve",
     "start:multi": "npm run build:multi && npm run server && start:webdash",
+    "start:uta7": "npm run build:uta7 && npm run server && start:webdash",
     "start": "npm run server"
   },
   "devDependencies": {
