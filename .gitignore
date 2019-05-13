@@ -59,3 +59,15 @@ typings/
 
 # next.js build output
 .next
+
+# Configuration Environments
+config/env.json
+# config/dev.json
+# config/integration.json
+# config/internal.json
+# config/local.json
+# config/prod.json
+# config/stage.json
+# config/test.json
+# config/cromo.json
+# config/multi.json
