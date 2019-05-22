@@ -4,7 +4,7 @@ var studiesPath = '/src/common/studies/';
 /* ================================================== */
 /** Base Configuration Variables */
 /* ================================================== */
-var heatmapDir = '../common/images/'
+var heatmapDir = 'http://localhost:8080/src/common/images/'
 var configFileDir = '../../../config/';
 var fileExtension = '.json';
 var requestValue = 'GET';
