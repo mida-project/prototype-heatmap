@@ -1,0 +1,69 @@
+[
+    {
+        "patientName": "Anonymized56",
+        "patientId": "02df3bbb-a15b-42d0-8b73-ecd1fe46a56f",
+        "studyDate": "20160427",
+        "modality": "Breast",
+        "studyDescription": "Breast",
+        "numImages": 1,
+        "studyId": "53fd9ac8-9a50a528-3327dd07-3bfcaefa-c0ddeccc",
+        "seriesList": [
+            {
+                "seriesDescription": "US",
+                "seriesNumber": "2",
+                "instanceList": [
+                    {
+                        "imageId": "365e6bb2-cfffccaf-44f0864d-df7b02be-6b3de3a2/file"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patientName": "Anonymized56",
+        "patientId": "02df3bbb-a15b-42d0-8b73-ecd1fe46a56f",
+        "studyDate": "20150115",
+        "modality": "MAMOGRAFIA DE ROTINA",
+        "studyDescription": "MAMOGRAFIA DE ROTINA",
+        "numImages": 1,
+        "studyId": "f495fe24-58ccf429-5701b15b-5fb35fb7-a9d4bbd4",
+        "seriesList": [
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "4",
+                "instanceList": [
+                    {
+                        "imageId": "2aac54d4-afc04f38-7e611dbf-c2b57dfd-1e1e1d86/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "c99947c8-209418fa-534dc965-4fb535eb-304a57c6/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "2",
+                "instanceList": [
+                    {
+                        "imageId": "21aeb746-68bae57c-fc95ccd8-f3d72a41-df6aab6e/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "3",
+                "instanceList": [
+                    {
+                        "imageId": "ea7b5da1-578e1112-941bb4a9-cf885d1a-cf91bbdd/file"
+                    }
+                ]
+            }
+        ]
+    }
+]

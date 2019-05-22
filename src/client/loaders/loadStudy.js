@@ -1,15 +1,15 @@
-var studiesPath = '/src/common/studies/';
+var overlayPath = "../public/templates/overlay.html"
 
+var studiesPath = '/src/common/studies/';
 /* ================================================== */
 /** Base Configuration Variables */
 /* ================================================== */
-
+var heatmapDir = '../common/images/'
 var configFileDir = '../../../config/';
 var fileExtension = '.json';
 var requestValue = 'GET';
 var localDicomServerPath = 'http://localhost:8042/';
 var responseProtocol = 'wadouri';
-
 /* ================================================== */
 
 
@@ -108,7 +108,7 @@ var instancesDirPath = 'instances' + '/';
 
 var instancesPath = dicomServerPath + instancesDirPath;
 
-console.log();
+
 
 /* ================================================== */
 /* ================================================== */
@@ -118,14 +118,15 @@ console.log();
 
 // Load JSON study information for each study
 function loadStudy(studyViewer, viewportModel, studyId) {
-
+// console.log("viewportModel"+viewportModel);
+// console.log("studyId"+studyId);
     // Get the JSON data for the selected studyId
     $.getJSON(studiesPath + studyId, function(data) {
-
+        console.log("studiesPath"+studiesPath);
         var imageViewer = new ImageViewer(studyViewer, viewportModel);
         imageViewer.setLayout('1x1'); // default layout
 
-        function initViewports() {
+        function  initViewports() {
             imageViewer.forEachElement(function(el) {
                 cornerstone.enable(el);
                 $(el).droppable({
@@ -139,7 +140,7 @@ function loadStudy(studyViewer, viewportModel, studyId) {
 
         // setup the tool buttons
         setupButtons(studyViewer);
-
+        console.log("instancesPath"+instancesPath);
         // layout choose
         $(studyViewer).find('.choose-layout a').click(function(){
             var previousUsed = [];
@@ -194,7 +195,7 @@ function loadStudy(studyViewer, viewportModel, studyId) {
                         //imageId = "dicomweb://localhost:8042/instances/" + imageId;
                         imageId = instancesPath + imageId;
                         //imageId = "wadouri://localhost:8042/wado?objectUID=" + imageId + "&requestType=WADO&contentType=application/dicom";
-                        console.log("DICOM ID: ", imageId);
+                        // console.log("DICOM ID: ", imageId);
                         studyViewer.roiData.dicom_id = imageId;
                     }
                     stack.imageIds.push(imageId);
@@ -203,26 +204,76 @@ function loadStudy(studyViewer, viewportModel, studyId) {
             } else {
                 series.instanceList.forEach(function(image) {
                     var imageId = image.imageId;
-
+                    console.log("imageId",series.seriesDescription);
                     if (image.imageId.substr(0, 4) !== 'http') {
                         //imageId = "dicomweb://cornerstonetech.org/images/ClearCanvas/" + image.imageId;
                         //imageId = "dicomweb://localhost:8042/instances/" + image.imageId;
                         imageId = instancesPath + image.imageId;
                         //imageId = "wadouri://localhost:8042/wado?objectUID=" + image.imageId + "&requestType=WADO&contentType=application/dicom";
                         console.log("DICOM Image ID: ", image.imageId);
+                       
+                        var imageid = image.imageId.split("/");
+                        console.log("Image ID: ", imageid[0]);
+                        var fileNames = new Array();
+                        globalval = [];
+                        $.ajax({
+                          url: "http://localhost:8080/src/common/images/",
+                          success: function(data){
+                             $(data).find("td > a").each(function(){
+                                if(openFile($(this).attr("href"))){
+                                     var file = $(this).attr("href");
+                                     var n = file.indexOf(imageid[0]);
+                                    if (n != -1 ){
+                                    fileNames.push(file);
+                                    }
+                                }           
+                             });
+                             
+                             localStorage.globalval = fileNames;
+                             console.log(localStorage.globalval[0],">>>>> test 1")
+                            //  $('#base').attr('src', filenameurl+fileNames[0]);
+                            //  $('#cloud').attr('src', filenameurl+fileNames[1]);
+                            //  $('#full').attr('src', filenameurl+fileNames[2]);
+                            //  $('#high').attr('src', filenameurl+fileNames[3]);
+                            //  $('#low').attr('src', filenameurl+fileNames[4]);
+                            //  $('#medium').attr('src', filenameurl+fileNames[5]);
+                            //  var base = $('#base');
+                          }
+                        }); 
+                        function openFile(file) {
+                            var extension = file.substr( (file.lastIndexOf('.') +1) );
+                            switch(extension) {               
+                                case 'png':               
+                                    return true;
+                                    break;
+                                default:
+                                    return false;
+                            }
+                        };
+                
                     }
                     stack.imageIds.push(imageId);
+                    console.log(stack.imageIds);
                 });
             }
             // Move to next series
             seriesIndex++;
-
+            console.log("seriesIndex",seriesIndex);
+            console.log("stack",stack);
             // Add the series stack to the stacks array
             imageViewer.stacks.push(stack);
             studyViewer.roiData.stacks.push(stack);
+           
+           
+            
+      
         });
         }
 
+     
+
+       
+   
 
 
         // Resize the parent div of the viewport to fit the screen
@@ -344,7 +395,9 @@ function loadStudy(studyViewer, viewportModel, studyId) {
         if (imageViewer.isSingle())
             useItemStack(0, 0);
 
-    });
+        }
+        );
+    
 };
 
 function activate(id) {

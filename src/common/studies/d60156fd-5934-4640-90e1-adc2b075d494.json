@@ -1,0 +1,51 @@
+[
+    {
+        "patientName": "Anonymized32",
+        "patientId": "d60156fd-5934-4640-90e1-adc2b075d494",
+        "studyDate": "20160330",
+        "modality": "Mamografia",
+        "studyDescription": "Mamografia",
+        "numImages": 1,
+        "studyId": "8aa95736-899cb0a2-4ce40f35-b6936713-a89a4c78",
+        "seriesList": [
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "1057",
+                "instanceList": [
+                    {
+                        "imageId": "b7adb5e4-b0128fd2-cfe570b6-4430c424-99817951/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "1057",
+                "instanceList": [
+                    {
+                        "imageId": "b942632d-cbd5d7be-fecb245b-cbaeea7e-7c692273/file"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patientName": "Anonymized32",
+        "patientId": "d60156fd-5934-4640-90e1-adc2b075d494",
+        "studyDate": "20160330",
+        "modality": "Breast",
+        "studyDescription": "Breast",
+        "numImages": 1,
+        "studyId": "3c544500-0e141ee6-1b023c45-6398ec8a-102803bb",
+        "seriesList": [
+            {
+                "seriesDescription": "US",
+                "seriesNumber": "2",
+                "instanceList": [
+                    {
+                        "imageId": "21fe95f0-f3aeaf32-ee6ef046-fb8d60b0-c00e0b42/file"
+                    }
+                ]
+            }
+        ]
+    }
+]

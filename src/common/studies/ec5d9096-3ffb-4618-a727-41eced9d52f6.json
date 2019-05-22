@@ -1,0 +1,22 @@
+[
+    {
+        "patientName": "Anonymized48",
+        "patientId": "ec5d9096-3ffb-4618-a727-41eced9d52f6",
+        "studyDate": "20151021",
+        "modality": "Mamografia Bilateral",
+        "studyDescription": "Mamografia Bilateral",
+        "numImages": 1,
+        "studyId": "6e1d3c41-88b53624-c06715de-6602d8a9-3cc1c5d9",
+        "seriesList": [
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "3",
+                "instanceList": [
+                    {
+                        "imageId": "8b5a99aa-e2095681-889cda04-32ae8a8d-076a88dc/file"
+                    }
+                ]
+            }
+        ]
+    }
+]

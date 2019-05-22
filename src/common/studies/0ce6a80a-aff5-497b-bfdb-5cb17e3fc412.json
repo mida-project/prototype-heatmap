@@ -1,0 +1,42 @@
+[
+    {
+        "patientName": "Anonymized45",
+        "patientId": "0ce6a80a-aff5-497b-bfdb-5cb17e3fc412",
+        "studyDate": "20160216",
+        "modality": "Breast",
+        "studyDescription": "Breast",
+        "numImages": 1,
+        "studyId": "63807db3-36e71298-9c0f122a-0655b60e-6b0f8680",
+        "seriesList": [
+            {
+                "seriesDescription": "US",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "d1b07030-e6e8f704-3613546d-f3ef9316-9af46f1d/file"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patientName": "Anonymized45",
+        "patientId": "0ce6a80a-aff5-497b-bfdb-5cb17e3fc412",
+        "studyDate": "20161205",
+        "modality": "Breast",
+        "studyDescription": "Breast",
+        "numImages": 1,
+        "studyId": "d60e2cf6-b02b345c-e4125c58-a1542101-e05fdc28",
+        "seriesList": [
+            {
+                "seriesDescription": "US",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "7cac2487-28d20a01-092e831d-09d89240-e14b5ca5/file"
+                    }
+                ]
+            }
+        ]
+    }
+]

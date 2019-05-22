@@ -1,0 +1,78 @@
+[
+    {
+        "patientName": "Anonymized66",
+        "patientId": "8de1f7e8-7fbb-4e69-8be2-3d350c8f0922",
+        "studyDate": "20160608",
+        "modality": "Mamografia",
+        "studyDescription": "Mamografia",
+        "numImages": 1,
+        "studyId": "c62427e7-a087b363-386fe785-1841f752-9b8f5691",
+        "seriesList": [
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "2000",
+                "instanceList": [
+                    {
+                        "imageId": "e977ac26-0d7e467b-4a0bc289-007a5205-e6a02710/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "2000",
+                "instanceList": [
+                    {
+                        "imageId": "fe191eb4-db1b20e3-88fd0989-e85a1190-8299dde1/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "2000",
+                "instanceList": [
+                    {
+                        "imageId": "9dd913e1-5949f174-a6b7cabb-eb99aab1-0cca8d8a/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "2000",
+                "instanceList": [
+                    {
+                        "imageId": "a3c588eb-97f73cf2-19320dd0-cbb43bd8-ff930655/file"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patientName": "Anonymized66",
+        "patientId": "8de1f7e8-7fbb-4e69-8be2-3d350c8f0922",
+        "studyDate": "20160608",
+        "modality": "Breast",
+        "studyDescription": "Breast",
+        "numImages": 1,
+        "studyId": "1d1cc29d-4bca89a7-f1a6be5f-ea1f4c21-c0fcca03",
+        "seriesList": [
+            {
+                "seriesDescription": "US",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "ca876900-623a28c4-2bcb5c5f-d5aa75cd-f9e66771/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "US",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "2908af50-cec152b0-10d08c0a-6b3519e3-5e9e719a/file"
+                    }
+                ]
+            }
+        ]
+    }
+]

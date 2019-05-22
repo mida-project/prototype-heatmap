@@ -1,0 +1,69 @@
+[
+    {
+        "patientName": "Anonymized47",
+        "patientId": "ce222d24-6efe-40fd-b955-6fcdbab4280a",
+        "studyDate": "20150609",
+        "modality": "ROUTINE MAMMOGRAPHY",
+        "studyDescription": "ROUTINE MAMMOGRAPHY",
+        "numImages": 1,
+        "studyId": "ddb02f80-b309d796-8b5be8af-c38ec7b4-502c8faf",
+        "seriesList": [
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "2",
+                "instanceList": [
+                    {
+                        "imageId": "ca8f8163-b5dafb5e-adf80834-eb90c6c0-078e63b6/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "3",
+                "instanceList": [
+                    {
+                        "imageId": "c33906e0-29d1c924-2c4fe031-477927e5-5d49f016/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "4",
+                "instanceList": [
+                    {
+                        "imageId": "33ad9b43-1d71636f-6abc44a5-8f8fff04-6ad97fa0/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "baa972f5-29912ee3-26ac5971-9c3086e7-c441033b/file"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patientName": "Anonymized47",
+        "patientId": "ce222d24-6efe-40fd-b955-6fcdbab4280a",
+        "studyDate": "20150609",
+        "modality": "Breast",
+        "studyDescription": "Breast",
+        "numImages": 1,
+        "studyId": "15c1ea68-48306978-7ab2b289-c72881aa-84473a2d",
+        "seriesList": [
+            {
+                "seriesDescription": "US",
+                "seriesNumber": "2",
+                "instanceList": [
+                    {
+                        "imageId": "520d18b6-616a4d47-145a03b2-3d3fd7c3-3864b63f/file"
+                    }
+                ]
+            }
+        ]
+    }
+]

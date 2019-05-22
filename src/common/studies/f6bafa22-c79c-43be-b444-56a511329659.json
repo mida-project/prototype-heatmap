@@ -1,0 +1,69 @@
+[
+    {
+        "patientName": "Anonymized35",
+        "patientId": "f6bafa22-c79c-43be-b444-56a511329659",
+        "studyDate": "20170712",
+        "modality": "Mamografia",
+        "studyDescription": "Mamografia",
+        "numImages": 1,
+        "studyId": "9573c8bb-956ddf12-26eb7b67-e1c4562e-a5bf52e9",
+        "seriesList": [
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "6059",
+                "instanceList": [
+                    {
+                        "imageId": "bb17a7a8-a8f3cc9b-17d97ab0-bdfd6f04-ff05d3e8/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "6059",
+                "instanceList": [
+                    {
+                        "imageId": "177b3507-41df855e-ca64bba9-cb4b918a-a5f48db1/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "6059",
+                "instanceList": [
+                    {
+                        "imageId": "096afe3e-7d2d73e5-86e69f2d-e0ceef0e-ccb5fd77/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "6059",
+                "instanceList": [
+                    {
+                        "imageId": "e2d11558-f299070c-1ed3566f-4a5cff5d-08a97699/file"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patientName": "Anonymized35",
+        "patientId": "f6bafa22-c79c-43be-b444-56a511329659",
+        "studyDate": "20170712",
+        "modality": "Breast",
+        "studyDescription": "Breast",
+        "numImages": 1,
+        "studyId": "444d4ee0-0ac20661-f6237f91-b7594c17-aca43b85",
+        "seriesList": [
+            {
+                "seriesDescription": "US",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "10c920f0-6d1d8214-cde1e6ed-b55963c7-cd9af47b/file"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,69 @@
+[
+    {
+        "patientName": "Anonymized39",
+        "patientId": "3e6b8bd6-c4fe-45c9-91df-fef6789c4d10",
+        "studyDate": "20170901",
+        "modality": "Screening-Bilateral Mammography",
+        "studyDescription": "Screening-Bilateral Mammography",
+        "numImages": 1,
+        "studyId": "7fa38828-feb95aca-f0d8ba6f-96f340b8-6df1f1bc",
+        "seriesList": [
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "33a14b1e-def73f85-167b893f-ec5bfc14-394aa055/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "4",
+                "instanceList": [
+                    {
+                        "imageId": "76faffdd-7e4a0e58-b43d1f9e-8cd385c9-6f2c8871/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "2",
+                "instanceList": [
+                    {
+                        "imageId": "bcc106b6-db8cc0d8-f95e56c3-fd5eb27d-fe817ec2/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "3",
+                "instanceList": [
+                    {
+                        "imageId": "5055ddab-d3fa9a6f-5a3963f2-b77114a9-1d8c6689/file"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patientName": "Anonymized39",
+        "patientId": "3e6b8bd6-c4fe-45c9-91df-fef6789c4d10",
+        "studyDate": "20170919",
+        "modality": "Breast",
+        "studyDescription": "Breast",
+        "numImages": 1,
+        "studyId": "83f99e7c-b30c6992-ef365ca1-a61ed8e6-699053f3",
+        "seriesList": [
+            {
+                "seriesDescription": "US",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "cf52c76f-17208bf5-0a9732ac-f0735d7b-fdf06523/file"
+                    }
+                ]
+            }
+        ]
+    }
+]

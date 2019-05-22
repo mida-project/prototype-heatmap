@@ -19,8 +19,11 @@
   "scripts": {
     "test": "jest",
     "install": "cd src npm install",
+    "dicom-server:local": "cd .. && cd dicom-server/ && npm run start:local",
     "dicom-server:multi": "cd .. && cd dicom-server/ && npm run start:multi",
+    "dicom-server:uta7": "cd .. && cd dicom-server/ && npm run start:uta7",
     "build": "webpack -p &",
+    "build:local": "webpack -p &",
     "build:multi": "webpack -p &",
     "build:uta7": "webpack -p &",
     "create:sl": "touch src/common/studyList.json",
@@ -33,6 +36,7 @@
     "dataset:multi": "http-server dataset -p 3710",
     "server": "node src/server/index.js",
     "start:webdash": "npx webdash serve",
+    "start:local": "npm run build:local && npm run server && start:webdash",
     "start:multi": "npm run build:multi && npm run server && start:webdash",
     "start:uta7": "npm run build:uta7 && npm run server && start:webdash",
     "start": "npm run server"

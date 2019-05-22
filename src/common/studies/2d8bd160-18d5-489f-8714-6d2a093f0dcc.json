@@ -1,0 +1,51 @@
+[
+    {
+        "patientName": "Anonymized46",
+        "patientId": "2d8bd160-18d5-489f-8714-6d2a093f0dcc",
+        "studyDate": "20150522",
+        "modality": "ROUTINE MAMMOGRAPHY",
+        "studyDescription": "ROUTINE MAMMOGRAPHY",
+        "numImages": 1,
+        "studyId": "88a33823-2330c159-1867a1f1-0f702e76-0f82a377",
+        "seriesList": [
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "3",
+                "instanceList": [
+                    {
+                        "imageId": "12c0564f-a3bf4db2-d4bfb264-7b02257d-021e1ab4/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "2b5b7c1a-1b63c1a4-ed88e898-2cf67f69-65565527/file"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patientName": "Anonymized46",
+        "patientId": "2d8bd160-18d5-489f-8714-6d2a093f0dcc",
+        "studyDate": "20150522",
+        "modality": "Breast",
+        "studyDescription": "Breast",
+        "numImages": 1,
+        "studyId": "fccfbeca-48e7fa15-1ce90bc3-01771926-52a0bdc9",
+        "seriesList": [
+            {
+                "seriesDescription": "US",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "3ebd13cc-7191ea62-74b86372-409a9fac-27fc8a1a/file"
+                    }
+                ]
+            }
+        ]
+    }
+]

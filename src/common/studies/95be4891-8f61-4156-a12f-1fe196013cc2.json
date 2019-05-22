@@ -1,0 +1,22 @@
+[
+    {
+        "patientName": "Anonymized11",
+        "patientId": "95be4891-8f61-4156-a12f-1fe196013cc2",
+        "studyDate": "20171031",
+        "modality": "Breast",
+        "studyDescription": "Breast",
+        "numImages": 1,
+        "studyId": "eb18ceeb-900a315a-32c1d3db-9e55f0ad-c608b120",
+        "seriesList": [
+            {
+                "seriesDescription": "US",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "3584f040-cb32020f-0a4d56e6-98fd0ae8-89b37ee4/file"
+                    }
+                ]
+            }
+        ]
+    }
+]

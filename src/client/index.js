@@ -1,6 +1,7 @@
 // Load in HTML templates
 var viewportPath = "../public/templates/viewport.html";
 var studyViewerPath = "../public/templates/studyViewer.html";
+var overlayPath = "../public/templates/overlay.html"
 
 // The file with the list of all studies.
 var fileName = '../common/studyList';
@@ -17,6 +18,10 @@ loadTemplate(viewportPath, function(element) {
 var studyViewerTemplate; // the study viewer template
 loadTemplate(studyViewerPath, function(element) {
   studyViewerTemplate = element;
+});
+ var overlayTemplate; // the study viewer template
+loadTemplate(overlayPath, function(element) {
+  overlayTemplate = element;
 });
 
 // Get study list from JSON manifest
@@ -43,6 +48,7 @@ $.getJSON(studyListFile, function(data) {
         if ($('#tabs li').length >= 2) {
           alert('Please close the opened patient first !');
         } else {
+          console.log("%%%%%%%%%%%"+study.patientId);
           // Add new tab for this study and switch to it
           var studyTab = '<li><div id=complete-tab><a href="#x' + study.patientId + '" data-toggle="tab">' + study.patientId + '</a>' +
             '<input type="button" class="closeBtn" value="X" />' + '</li></div>';
@@ -51,12 +57,16 @@ $.getJSON(studyListFile, function(data) {
           var studyViewerCopy = studyViewerTemplate.clone();
 
           var viewportCopy = viewportTemplate.clone();
+          var overlayCopy = overlayTemplate.clone();
           studyViewerCopy.find('.imageViewer').append(viewportCopy);
-
+          studyViewerCopy.find('.imageViewer').append(overlayCopy);
 
           studyViewerCopy.attr("id", 'x' + study.patientId);
           // Make the viewer visible
           studyViewerCopy.removeClass('hidden');
+          overlayCopy.appendTo('#ppp');
+          overlayCopy.addClass('hidden');
+
           // Add section to the tab content
           studyViewerCopy.appendTo('#tabContent');
 
@@ -75,15 +85,35 @@ $.getJSON(studyListFile, function(data) {
           };
 
           $('.closeBtn').click(function() {
+            overlayCopy.remove();
             var element = this.parentNode.parentNode;
             $('#tabs a:first').tab('show');
             element.remove();
             var tabDataElement = element.firstChild.firstChild.getAttribute('href');
             if($(tabDataElement).length > 0){
               $(tabDataElement)[0].remove();
-            }
+            } 
           });
-
+          $('.imageViewer').click(function() {
+            
+            
+            var filenameurl = "http://localhost:8080/src/common/images/"
+            var imageid = localStorage.globalval.split(",");
+            console.log("localstorage 1:"+imageid[0]);
+            $('#base').attr('src', filenameurl+imageid[0]);
+            $('#cloud').attr('src', filenameurl+imageid[1]);
+            $('#full').attr('src', filenameurl+imageid[2]);
+            $('#high').attr('src', filenameurl+imageid[3]);
+            $('#low').attr('src', filenameurl+imageid[4]);
+            $('#medium').attr('src', filenameurl+imageid[5]);
+            console.log('ooooooooooooooo',$('#base').attr('src'))
+            overlayCopy.removeClass('hidden');
+          //  $('.Viewer').load(overlayPath);
+            var element = this.parentNode.parentNode;
+            element.remove();
+                              //  var base = $('#base');
+            console.log("localstorage 2:"+localStorage.globalval);
+          });
           // Now load the study.json
           loadStudy(studyViewerCopy, viewportTemplate, study.studyId + fileFormat);
         }

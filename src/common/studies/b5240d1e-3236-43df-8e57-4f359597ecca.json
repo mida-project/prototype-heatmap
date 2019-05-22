@@ -1,0 +1,49 @@
+[
+    {
+        "patientName": "Anonymized24",
+        "patientId": "b5240d1e-3236-43df-8e57-4f359597ecca",
+        "studyDate": "20170127",
+        "modality": "Screening-Bilateral Mammography",
+        "studyDescription": "Screening-Bilateral Mammography",
+        "numImages": 1,
+        "studyId": "336d404f-12bdb836-b4cbdaef-738deeee-5a5f9e43",
+        "seriesList": [
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "2",
+                "instanceList": [
+                    {
+                        "imageId": "2844e6c9-26edf9bf-22c801f3-3ea66c2d-04e2a7b9/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "3",
+                "instanceList": [
+                    {
+                        "imageId": "8f2a8282-fe26388f-ce6ceb7d-a7be135b-ec020c77/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "21513570-dbcdc69c-2cf0dec5-517b99d7-9cabd23b/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "4",
+                "instanceList": [
+                    {
+                        "imageId": "14720e07-2428d57d-7dd80312-51245b60-c9e5f1f0/file"
+                    }
+                ]
+            }
+        ]
+    }
+]

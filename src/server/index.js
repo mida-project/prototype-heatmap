@@ -116,7 +116,7 @@ var updateStudiesFileHandler = function(fileData) {
 };
 
 http.createServer(function(request, response) {
-
+console.log("$$$$$$$$$$$$$$"+request.url);
   if (request.url == 'SaveFile' || request.url == '/SaveFile' || request.url == './SaveFile') {
     var store = '';
     request.on('data', function(chunk) {
@@ -165,10 +165,12 @@ http.createServer(function(request, response) {
 
   var filePath = '.' + request.url;
   if (filePath == './') {
+    
     filePath = '../public/index.html';
   }
 
   var extname = path.extname(filePath);
+  console.log("file path======>", filePath);
   var contentType = 'text/html';
   switch (extname) {
     case '.js':

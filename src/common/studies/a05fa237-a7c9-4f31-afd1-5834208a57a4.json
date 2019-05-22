@@ -1,0 +1,67 @@
+[
+    {
+        "patientName": "Anonymized38",
+        "patientId": "a05fa237-a7c9-4f31-afd1-5834208a57a4",
+        "studyDate": "20150811",
+        "modality": "Breast",
+        "studyDescription": "Breast",
+        "numImages": 1,
+        "studyId": "6f72ad8c-0b2ab885-466cacd1-a3d92471-57352aef",
+        "seriesList": [
+            {
+                "seriesDescription": "US",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "0986d95f-6098a2a1-e1648d6e-c4522391-c381c842/file"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patientName": "Anonymized38",
+        "patientId": "a05fa237-a7c9-4f31-afd1-5834208a57a4",
+        "studyDate": "20150625",
+        "numImages": 1,
+        "studyId": "b0749682-798e0983-20b8f1ad-7cac0c39-71492961",
+        "seriesList": [
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "b25741f7-1feaad58-75abf966-2b3a45e3-f12e66c7/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "c8e9a4fc-3c57684b-7c887aaa-aa7e55be-51b4839d/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "ec36cbf3-d5dde0fe-9a291682-0c240113-6bead36c/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "1",
+                "instanceList": [
+                    {
+                        "imageId": "423b8ceb-2cf37fd6-2752a06e-d085cb81-2c53b563/file"
+                    }
+                ]
+            }
+        ]
+    }
+]
