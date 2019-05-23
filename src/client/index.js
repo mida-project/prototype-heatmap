@@ -85,6 +85,7 @@ $.getJSON(studyListFile, function(data) {
           };
 
           $('.closeBtn').click(function() {
+            localStorage.globalval = '';
             overlayCopy.remove();
             var element = this.parentNode.parentNode;
             $('#tabs a:first').tab('show');
@@ -97,9 +98,9 @@ $.getJSON(studyListFile, function(data) {
           $('.imageViewer').click(function() {
             
             
-            var filenameurl = "http://localhost:8080/src/common/images/"
+            var filenameurl = "../common/images/"
             var imageid = localStorage.globalval.split(",");
-            console.log("localstorage 1:"+imageid[0]);
+            console.log("localstorage:"+imageid[0]);
             $('#base').attr('src', filenameurl+imageid[0]);
             $('#cloud').attr('src', filenameurl+imageid[1]);
             $('#full').attr('src', filenameurl+imageid[2]);
@@ -112,7 +113,7 @@ $.getJSON(studyListFile, function(data) {
             var element = this.parentNode.parentNode;
             element.remove();
                               //  var base = $('#base');
-            console.log("localstorage 2:"+localStorage.globalval);
+            console.log("localstorage:"+localStorage.globalval);
           });
           // Now load the study.json
           loadStudy(studyViewerCopy, viewportTemplate, study.studyId + fileFormat);

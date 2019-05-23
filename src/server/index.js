@@ -162,6 +162,25 @@ console.log("$$$$$$$$$$$$$$"+request.url);
       updateStudiesFileHandler(fileData);
     });
   };
+  if (request.url == 'GetImageList' || request.url == '/GetImageList' || request.url == './GetImageList') {
+    // console.log('in request')
+    var filePath = __dirname + '/../common/images';
+    console.log("filepath:",filePath)
+    fs.readdir(filePath, (err, filenames) => {
+      if (err) {
+        response.writeHead(500, {
+          'Content-Type': 'application/json'
+        });
+        response.end();
+      } else {
+        response.writeHead(200, {
+          'Content-Type': 'application/json'
+        });
+        console.log(filenames)
+        response.end(JSON.stringify(filenames));
+      }
+    })
+  }
 
   var filePath = '.' + request.url;
   if (filePath == './') {
@@ -192,7 +211,8 @@ console.log("$$$$$$$$$$$$$$"+request.url);
       contentType = 'audio/wav';
       break;
   }
-
+ 
+    
   fs.readFile(filePath, function(error, content) {
     if (error) {
       if (error.code == 'ENOENT') {
