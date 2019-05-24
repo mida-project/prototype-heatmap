@@ -96,11 +96,9 @@ $.getJSON(studyListFile, function(data) {
             } 
           });
           $('.imageViewer').click(function() {
-            
-            
             var filenameurl = "../common/images/"
             var imageid = localStorage.globalval.split(",");
-            console.log("localstorage:"+imageid[0]);
+            console.log("localsto:"+localStorage.globalval[2]);
             $('#base').attr('src', filenameurl+imageid[0]);
             $('#cloud').attr('src', filenameurl+imageid[1]);
             $('#full').attr('src', filenameurl+imageid[2]);
@@ -109,7 +107,7 @@ $.getJSON(studyListFile, function(data) {
             $('#medium').attr('src', filenameurl+imageid[5]);
             console.log('ooooooooooooooo',$('#base').attr('src'))
             overlayCopy.removeClass('hidden');
-          //  $('.Viewer').load(overlayPath);
+           $('.viewer').load(overlayPath);
             var element = this.parentNode.parentNode;
             element.remove();
                               //  var base = $('#base');

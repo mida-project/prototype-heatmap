@@ -202,7 +202,6 @@ function loadStudy(studyViewer, viewportModel, studyId) {
                 }
                 // Otherwise, get each instance url
             } else {
-                
                 series.instanceList.forEach(function(image) {
                     var imageId = image.imageId;
                     console.log("imageId",series.seriesDescription);
@@ -219,15 +218,18 @@ function loadStudy(studyViewer, viewportModel, studyId) {
                         $.ajax({
                           url: "/GetImageList",
                           success: function(data){
-                            //   console.log("data:",data);
-                              console.log("data:",data.length);
-                              for (var i = 0;i<data.length;i++){
-                                  var n = data[i].indexOf(imageid[0]);
+                            var array = JSON.parse(data);
+                            console.log("array:",array);
+                            console.log("array:",array[2]);
+                              for (var i = 0;i<array.length;i++){
+                                  var n = array[i].indexOf(imageid[0]);
                                   if (n != -1){
-                                      fileNames.push(data[i]);
+                                      fileNames.push(array[i]);
                                   }
                               }
+                                
                               localStorage.globalval = fileNames;
+                              console.log("local:",localStorage.globalval);
                                 }
                                            
                              });

@@ -166,20 +166,23 @@ console.log("$$$$$$$$$$$$$$"+request.url);
     // console.log('in request')
     var filePath = __dirname + '/../common/images';
     console.log("filepath:",filePath)
-    fs.readdir(filePath, (err, filenames) => {
-      if (err) {
-        response.writeHead(500, {
-          'Content-Type': 'application/json'
-        });
-        response.end();
-      } else {
-        response.writeHead(200, {
-          'Content-Type': 'application/json'
-        });
-        console.log(filenames)
-        response.end(JSON.stringify(filenames));
-      }
-    })
+    var files = fs.readdirSync(filePath);
+    response.end(JSON.stringify(files));
+    
+    // fs.readdir(filePath, (err, filenames) => {
+    //   if (err) {
+    //     response.writeHead(500, {
+    //       'Content-Type': 'application/json'
+    //     });
+    //     response.end();
+    //   } else {
+    //     response.writeHead(200, {
+    //       'Content-Type': 'application/json'
+    //     });
+    //     console.log(filenames)
+    //     response.end(JSON.stringify(filenames));
+    //   }
+    // })
   }
 
   var filePath = '.' + request.url;
