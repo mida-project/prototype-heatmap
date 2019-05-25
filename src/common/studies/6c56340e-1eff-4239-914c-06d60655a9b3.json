@@ -1,0 +1,69 @@
+[
+    {
+        "patientName": "Anonymized1",
+        "patientId": "6c56340e-1eff-4239-914c-06d60655a9b3",
+        "studyDate": "20160315",
+        "modality": "Breast",
+        "studyDescription": "Breast",
+        "numImages": 1,
+        "studyId": "bc0907ed-8b1092c4-2843330e-d8a3f857-bd2dff3f",
+        "seriesList": [
+            {
+                "seriesDescription": "US",
+                "seriesNumber": "2",
+                "instanceList": [
+                    {
+                        "imageId": "418a0944-bb409965-0e53c32c-45884b5e-872135e6/file"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patientName": "Anonymized1",
+        "patientId": "6c56340e-1eff-4239-914c-06d60655a9b3",
+        "studyDate": "20170105",
+        "modality": "EXAMES EXTERIOR - TRIBUNAIS E HOSPITAIS MAMOGRAFI",
+        "studyDescription": "EXAMES EXTERIOR - TRIBUNAIS E HOSPITAIS MAMOGRAFI",
+        "numImages": 1,
+        "studyId": "88198636-6ad35c9a-cff44585-44713000-0d9b180e",
+        "seriesList": [
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "4092",
+                "instanceList": [
+                    {
+                        "imageId": "dbc249a9-cfb7d4ca-13831de3-8064c684-f9c75085/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "4092",
+                "instanceList": [
+                    {
+                        "imageId": "fe3076fd-f74af53c-3e48ae19-5f4f3598-ce0844cc/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "4092",
+                "instanceList": [
+                    {
+                        "imageId": "58c6867e-268e67d8-af1c13c9-e6a1784b-e14a232b/file"
+                    }
+                ]
+            },
+            {
+                "seriesDescription": "MG",
+                "seriesNumber": "4092",
+                "instanceList": [
+                    {
+                        "imageId": "1bd69cec-997413c5-3f0e6210-28a3d31d-36ce2603/file"
+                    }
+                ]
+            }
+        ]
+    }
+]

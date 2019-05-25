@@ -181,7 +181,8 @@ function loadStudy(studyViewer, viewportModel, studyId) {
                 currentImageIdIndex: 0,
                 frameRate: series.frameRate
             };
-
+            var j = 0;
+            console.log("imageIddddddddd",data[dataIndex].seriesList.length);
 
             // Populate imageIds array with the imageIds from each series
             // For series with frame information, get the image url's
@@ -204,46 +205,28 @@ function loadStudy(studyViewer, viewportModel, studyId) {
             } else {
                 series.instanceList.forEach(function(image) {
                     var imageId = image.imageId;
-                    console.log("imageId",series.seriesDescription);
+                    console.log("imageId",series.instanceList.length);
                     if (image.imageId.substr(0, 4) !== 'http') {
                         //imageId = "dicomweb://cornerstonetech.org/images/ClearCanvas/" + image.imageId;
                         //imageId = "dicomweb://localhost:8042/instances/" + image.imageId;
                         imageId = instancesPath + image.imageId;
                         //imageId = "wadouri://localhost:8042/wado?objectUID=" + image.imageId + "&requestType=WADO&contentType=application/dicom";
-                        console.log("DICOM Image ID: ", image.imageId);
+                        // console.log("DICOM Image ID: ", image.imageId);
                         var imageid = image.imageId.split("/");
                         console.log("Image ID: ", imageid[0]);
-                        var fileNames = new Array();
-                        globalval = [];
-                        $.ajax({
-                          url: "/GetImageList",
-                          success: function(data){
-                            var array = JSON.parse(data);
-                            console.log("array:",array);
-                            console.log("array:",array[2]);
-                              for (var i = 0;i<array.length;i++){
-                                  var n = array[i].indexOf(imageid[0]);
-                                  if (n != -1){
-                                      fileNames.push(array[i]);
-                                  }
-                              }
-                                
-                              localStorage.globalval = fileNames;
-                              console.log("local:",localStorage.globalval);
-                                }
-                                           
-                             });
-                             console.log("local:",localStorage.globalval);
-                        
+                       
                     }
+                   
                     stack.imageIds.push(imageId);
-                    console.log(stack.imageIds);
+                    // console.log(stack.imageIds);
                 });
             }
+            // console.log("local:",localImageArray);
+            // console.log("local:",localImageArray.length);
             // Move to next series
             seriesIndex++;
-            console.log("seriesIndex",seriesIndex);
-            console.log("stack",stack);
+            // console.log("seriesIndex",seriesIndex);
+            // console.log("stack",stack);
             // Add the series stack to the stacks array
             imageViewer.stacks.push(stack);
             studyViewer.roiData.stacks.push(stack);
@@ -330,6 +313,27 @@ function loadStudy(studyViewer, viewportModel, studyId) {
         function useItemStack(item, stack) {
             studyViewer.roiData.currentStack = stack;
             var imageId = imageViewer.stacks[stack].imageIds[0], element = imageViewer.getElement(item);
+            var image = imageId.split('/')
+            localStorage.image_catch = image[4];
+            var fileNames = new Array();
+            $.ajax({
+                url: "/GetImageList",
+                success: function(data){
+                  var array = JSON.parse(data);
+                    for (var i = 0;i<array.length;i++){
+                        var n = array[i].indexOf(localStorage.image_catch);
+                        if (n != -1){
+                            fileNames.push(array[i]);
+                        }
+                    }
+                  //   console.log("localStorage.image_catch",localStorage.image_catch);
+                    console.log("fileNames:",fileNames);
+                    localStorage.globalval = fileNames;  
+                    console.log("local:",localStorage.globalval);     
+                 
+                }
+              });
+            // console.log("okkkkkkkkkkkkk",localStorage.image_catch);
             if ($(element).data('waiting')) {
                 imageViewer.viewports[item].find('.overlay-text').remove();
                 $(element).data('waiting', false);

@@ -1,0 +1,451 @@
+[
+    {
+        "patientName": "Anonymized1",
+        "patientId": "d645214a-8cf8-4c01-a91e-38110b007e1d",
+        "studyDate": "",
+        "modality": "MAMA^ROTINA",
+        "studyDescription": "MAMA^ROTINA",
+        "numImages": 144,
+        "studyId": "271558d8-c978d308-5967dfcd-26a1d022-434e6a31",
+        "seriesList": [
+            {
+                "seriesDescription": "MR",
+                "seriesNumber": "9",
+                "instanceList": [
+                    {
+                        "imageId": "35011a37-742f5fb2-f0c7cbe8-d48d00fd-5c2b4070/file"
+                    },
+                    {
+                        "imageId": "3f346214-b8b97a9b-1f27932d-5f68f383-d3aacbba/file"
+                    },
+                    {
+                        "imageId": "4bb95b80-ab2e9626-e0455fcd-47a675fe-857f4cb3/file"
+                    },
+                    {
+                        "imageId": "30b260c2-f606d3bc-a7ffba08-9e03e274-2f75aa99/file"
+                    },
+                    {
+                        "imageId": "acbdb179-c3067d8e-a1489278-dc707107-1be809de/file"
+                    },
+                    {
+                        "imageId": "a59902c7-40ac6263-c6f69c8d-4342cbf4-1df1e9b6/file"
+                    },
+                    {
+                        "imageId": "4b18e342-77bd478d-2cb60f36-f30d0199-766d7d75/file"
+                    },
+                    {
+                        "imageId": "74c61d30-80440d2c-c16fc9ce-98919d2f-3da5f084/file"
+                    },
+                    {
+                        "imageId": "80f1862b-1bc1ad64-fe5ead65-f8235e06-b2ddff3f/file"
+                    },
+                    {
+                        "imageId": "f78374af-362651c2-716b89f6-20a5067c-79588489/file"
+                    },
+                    {
+                        "imageId": "fd2d13d5-84d2a15b-96eea525-ff9a4724-fdb13450/file"
+                    },
+                    {
+                        "imageId": "8c4dd6dd-7b0125f7-5b65b88f-a081dc80-82a0a689/file"
+                    },
+                    {
+                        "imageId": "16beed77-4e460706-10cc3f7b-91f0cf33-289411d2/file"
+                    },
+                    {
+                        "imageId": "20993c4c-7dd3903b-b0864e83-33a5ffe4-f19d8f28/file"
+                    },
+                    {
+                        "imageId": "62eb71fe-8b7fe9b9-d9e68102-543b0d1e-d6ffc365/file"
+                    },
+                    {
+                        "imageId": "5046ba2e-62ec7d81-d6cf40fa-b3388d38-56554f92/file"
+                    },
+                    {
+                        "imageId": "aa17f572-ab23d4e7-4ab6f208-9961cf13-b0353974/file"
+                    },
+                    {
+                        "imageId": "ae697318-82935a7c-3970d951-620ca16f-9d8e8d4d/file"
+                    },
+                    {
+                        "imageId": "d2f9281d-98d85e57-d04b95ac-dcec2395-e3de42c8/file"
+                    },
+                    {
+                        "imageId": "17ae7641-eaccfe05-0e4c9a68-1aeb1418-da9d3bee/file"
+                    },
+                    {
+                        "imageId": "b6b74bb7-554b3bd8-c9c158f0-924253f6-75e61e81/file"
+                    },
+                    {
+                        "imageId": "9575f53e-7c14afdc-62084b4c-cc00a664-c2819a8e/file"
+                    },
+                    {
+                        "imageId": "7a95969b-e7558c9d-b77846ce-a9749e38-97f5edd8/file"
+                    },
+                    {
+                        "imageId": "a1800ee2-35817e82-7ded4cde-23ae6a9e-c267d568/file"
+                    },
+                    {
+                        "imageId": "aa95312d-ac84ee2d-eaed0cd8-c99513ae-203e4e68/file"
+                    },
+                    {
+                        "imageId": "bacb43a4-9bed0c63-238d86d9-a15ac896-c0451d68/file"
+                    },
+                    {
+                        "imageId": "ec37b107-89bbf2cf-40cb3066-ab5c59a8-4ad8fb76/file"
+                    },
+                    {
+                        "imageId": "11c80e3b-d7ac795e-5256f9a7-8eb71be8-2085db36/file"
+                    },
+                    {
+                        "imageId": "6aca1242-e84482d7-803c0350-29177d57-573431c1/file"
+                    },
+                    {
+                        "imageId": "e608c37b-5e0bd54d-f82cba7b-431dacee-acf785c1/file"
+                    },
+                    {
+                        "imageId": "2365156a-9ffcff07-a96f33a7-c326aa40-e0aa7927/file"
+                    },
+                    {
+                        "imageId": "e52fc3b5-86e9fb22-2fd2c116-d084273b-fdc89c61/file"
+                    },
+                    {
+                        "imageId": "1f5f7608-975c9af1-31de46a3-df76dbfe-23e2b840/file"
+                    },
+                    {
+                        "imageId": "7ea519ff-c3a1c87c-73f2c7d2-7271a028-95b5d795/file"
+                    },
+                    {
+                        "imageId": "b08c2fa2-3a21ab57-6c5c0a23-03ea1d76-8f2f1534/file"
+                    },
+                    {
+                        "imageId": "c345d127-1263dc80-73820fd3-507eda42-816e2c59/file"
+                    },
+                    {
+                        "imageId": "c8dca5f8-74085d58-78662dc7-bd41be8a-4703b23a/file"
+                    },
+                    {
+                        "imageId": "fa210fb0-15d40f8b-477698db-5557ccb3-5713f2ac/file"
+                    },
+                    {
+                        "imageId": "0a83485b-aa208dcc-a54db78e-62222326-b7188eac/file"
+                    },
+                    {
+                        "imageId": "5338f5d3-be2015a0-e553f17b-60f311f2-44a77bfd/file"
+                    },
+                    {
+                        "imageId": "83a0fdc8-d53b93f9-f47448b0-28889c23-eb714406/file"
+                    },
+                    {
+                        "imageId": "4b508b15-5a3a13d6-63fdfa29-5f3d4ab6-17a27198/file"
+                    },
+                    {
+                        "imageId": "f5f7c7c6-663b06f6-f6d3fe73-5afe7cc1-7fa8fb73/file"
+                    },
+                    {
+                        "imageId": "9b545b06-3352654c-ae6ad354-5a74879f-0b5713b9/file"
+                    },
+                    {
+                        "imageId": "ed6372d0-40d97d30-5b899eea-450da29f-bf7329a9/file"
+                    },
+                    {
+                        "imageId": "971a7dec-7bf78e36-3c66e94e-c5df839c-1e739a3a/file"
+                    },
+                    {
+                        "imageId": "42ad1ff0-a7286f62-b611de4b-2995c9e0-b5ac1050/file"
+                    },
+                    {
+                        "imageId": "016ba6e3-9713e56b-4f26781b-8e3bbfd7-9b68f93e/file"
+                    },
+                    {
+                        "imageId": "334a9f47-8ef8a8ca-11dff4db-4e5b3d67-2e4d4c05/file"
+                    },
+                    {
+                        "imageId": "d3d967e4-2ce5da5e-19201ad2-87166dcf-61eaf8c0/file"
+                    },
+                    {
+                        "imageId": "aac0c378-cce20e58-72f8dd34-cbfea665-945d6cb0/file"
+                    },
+                    {
+                        "imageId": "395530bc-9c442a42-bb55137c-ea8a3c36-eb07a653/file"
+                    },
+                    {
+                        "imageId": "047acc62-020eb133-d6da66da-cd6dd4d9-407d6731/file"
+                    },
+                    {
+                        "imageId": "c0f4992b-484d98fe-b042dde1-1c80e609-753e2b48/file"
+                    },
+                    {
+                        "imageId": "6ead3bd6-3aba251e-2a441e8f-cdbea9c5-a04eb796/file"
+                    },
+                    {
+                        "imageId": "b19b527b-f80e1694-456a7309-4808fc39-3a17add5/file"
+                    },
+                    {
+                        "imageId": "98c6a2b0-2a203943-b9c4bc85-e00ae595-c0289f9b/file"
+                    },
+                    {
+                        "imageId": "43831307-28cd096c-86df5c65-218d29cf-ab57458d/file"
+                    },
+                    {
+                        "imageId": "c1463971-dc211d02-0c4d39b3-fd7d22cd-908a211b/file"
+                    },
+                    {
+                        "imageId": "42b910d8-7dfb90d4-2b7ec933-81aa0e59-64d35bc2/file"
+                    },
+                    {
+                        "imageId": "e6338787-d6eec7cd-3620a020-b44a11a1-cdc1490e/file"
+                    },
+                    {
+                        "imageId": "f43f366c-0c2def1f-517f8864-7da6ca64-6bbb0245/file"
+                    },
+                    {
+                        "imageId": "422ad327-2425fb53-64c704e6-63efec67-8a8c951d/file"
+                    },
+                    {
+                        "imageId": "93096b2f-294de26c-91c9f12a-cf94c132-e8b58d09/file"
+                    },
+                    {
+                        "imageId": "a9b4d782-0739316f-6d730288-e0544b48-96b04f5d/file"
+                    },
+                    {
+                        "imageId": "05bf69d1-70fdc389-d8121b12-b459da7d-221747d1/file"
+                    },
+                    {
+                        "imageId": "f63e9229-7e1b2990-81f94404-328381cf-40f3dcfa/file"
+                    },
+                    {
+                        "imageId": "571accf3-8c86ba6c-1bd58c00-a8068817-00d10b96/file"
+                    },
+                    {
+                        "imageId": "ab7a95e1-3894bd76-98c8d87c-111985e5-f0869e92/file"
+                    },
+                    {
+                        "imageId": "aca17e30-3b6d27fd-831a9493-a621399c-18c60c1b/file"
+                    },
+                    {
+                        "imageId": "439d6e16-f3c52e7d-bdf3aafa-c8c87b05-ff83d949/file"
+                    },
+                    {
+                        "imageId": "c040b68f-e0075766-cedb6c57-9537eb97-0345f9e2/file"
+                    },
+                    {
+                        "imageId": "271322d0-cbd3240e-6e6a00f7-7aeb07d1-74b0cefe/file"
+                    },
+                    {
+                        "imageId": "1901749a-b3ed291c-5e8ab740-ca711543-ce9e1c68/file"
+                    },
+                    {
+                        "imageId": "ed501acc-c5f44bf7-abb54490-6009a2e1-85a95311/file"
+                    },
+                    {
+                        "imageId": "9f3b3b0a-c8c48de9-ba7eaf12-d50b3f61-cd51076e/file"
+                    },
+                    {
+                        "imageId": "d260be01-d67842ff-fbef0248-16c1fcf1-741df5a7/file"
+                    },
+                    {
+                        "imageId": "f4f93f1b-e63af823-6a5cec06-e9efb041-2df27a89/file"
+                    },
+                    {
+                        "imageId": "20f0e052-0d9cb4ce-afac0c96-41dd2564-d458c555/file"
+                    },
+                    {
+                        "imageId": "99cab18b-34af90f6-a24b773f-09805519-c2b940b9/file"
+                    },
+                    {
+                        "imageId": "1456f5d2-2a39ac27-7c529e9e-10a83b87-61c62544/file"
+                    },
+                    {
+                        "imageId": "ecb27687-f3afd2d5-7a19394c-912663d6-6747d679/file"
+                    },
+                    {
+                        "imageId": "d8c9646e-e43f3861-9b49dee7-5ba85f48-54f86dce/file"
+                    },
+                    {
+                        "imageId": "f9940c19-956c5b9a-6769440f-27ea33b9-a18996d0/file"
+                    },
+                    {
+                        "imageId": "f82dba40-27473a37-1fe7b7b7-3bd4d5b3-aee04c2c/file"
+                    },
+                    {
+                        "imageId": "c8b08a6d-a320fdab-442d9fb1-e2f55b1c-8aefb7a9/file"
+                    },
+                    {
+                        "imageId": "57999d89-fa8172af-7889eeac-e130eba3-4e70bb1b/file"
+                    },
+                    {
+                        "imageId": "5f71b984-b0a49512-4cccebf2-0f0caecf-d36d90eb/file"
+                    },
+                    {
+                        "imageId": "446e7695-6f74d146-f759acd7-88695d24-39430621/file"
+                    },
+                    {
+                        "imageId": "20b39175-cbe21329-29238a57-f324600f-cc46bded/file"
+                    },
+                    {
+                        "imageId": "0c01f42a-8a8f8cc3-4405fa74-bf2fca49-cf8ecc7e/file"
+                    },
+                    {
+                        "imageId": "2af6f584-1b3ec78b-481fba79-b886db46-375a552c/file"
+                    },
+                    {
+                        "imageId": "a3240328-e030e512-26899c71-1c9eaa96-046d4a7d/file"
+                    },
+                    {
+                        "imageId": "0852ceaf-7b892fa8-02064caa-0f22b28a-c790959b/file"
+                    },
+                    {
+                        "imageId": "7e2f7b71-17a4bf32-11325b2f-55afde7d-6b94ffcf/file"
+                    },
+                    {
+                        "imageId": "643f65b6-e4f191f3-4f92e511-ce81224e-cd633e09/file"
+                    },
+                    {
+                        "imageId": "d3407a1c-a39fbf15-8aec2efa-9bce8ee5-d50e799e/file"
+                    },
+                    {
+                        "imageId": "67e4ceef-84424fb8-d3fd4774-2a384808-8c28a1bf/file"
+                    },
+                    {
+                        "imageId": "7425bedf-19de4c3e-2415806f-c447d748-9bad509c/file"
+                    },
+                    {
+                        "imageId": "d1bfdbf0-c83f6217-0b2636e2-b3f45f04-700525a7/file"
+                    },
+                    {
+                        "imageId": "15e88693-21c97eca-9dbd1bc6-30d30135-68668ac0/file"
+                    },
+                    {
+                        "imageId": "0ec78bea-e2ce067a-895ff10a-b339b153-7801f4b0/file"
+                    },
+                    {
+                        "imageId": "32aa5611-af4633cf-e0ea2618-966700da-1dcb8909/file"
+                    },
+                    {
+                        "imageId": "ccbb9915-5f08df5a-0bc6e4fa-be11ffbd-f68152bc/file"
+                    },
+                    {
+                        "imageId": "14484a92-329edb6d-4d727800-b856e5ac-c13eb366/file"
+                    },
+                    {
+                        "imageId": "552c3f20-a02434ef-ec9235ee-24f0cd0a-55b972a0/file"
+                    },
+                    {
+                        "imageId": "81616213-2679f850-ddca8b62-149fa59f-0d948e93/file"
+                    },
+                    {
+                        "imageId": "aee604eb-f939ea52-a99122e5-40b65252-1a1465c8/file"
+                    },
+                    {
+                        "imageId": "9b18d388-2b914fb3-fddd7c1b-d84af74e-d88d17f4/file"
+                    },
+                    {
+                        "imageId": "2062cac9-9ef564fc-d7e6dd33-468a889f-c9d28b07/file"
+                    },
+                    {
+                        "imageId": "0ab4634e-27ee76fc-03651f1a-a902449d-38b14e7b/file"
+                    },
+                    {
+                        "imageId": "d70f1ddd-08996e75-05678192-34c03f15-291216bc/file"
+                    },
+                    {
+                        "imageId": "5094ad8e-f4269e16-1580f0a3-11faa955-85ebbd68/file"
+                    },
+                    {
+                        "imageId": "45a8a2a2-00db47f5-c763fe24-bdd85418-ce6abfbc/file"
+                    },
+                    {
+                        "imageId": "50a789f0-f5ce4dca-4e682af9-ee74c0b5-aabd77c6/file"
+                    },
+                    {
+                        "imageId": "f1fa7b64-630fd52f-be3af10b-5480bc31-1f7bc262/file"
+                    },
+                    {
+                        "imageId": "9c55b222-fb19fd4a-252ea41c-5111de8c-40317f25/file"
+                    },
+                    {
+                        "imageId": "a8906314-c33f3127-15fef745-336fa373-99428d64/file"
+                    },
+                    {
+                        "imageId": "aba785ae-1818627c-e6332dcb-11d5e1de-ca35dbea/file"
+                    },
+                    {
+                        "imageId": "20e1268a-8fa8eb79-d3f382aa-b8e9bb18-bb4a0158/file"
+                    },
+                    {
+                        "imageId": "eaf447a0-e8a29134-69b1a0dc-7db092c2-33b30cdf/file"
+                    },
+                    {
+                        "imageId": "61e11205-a619f17b-8bf3aa1b-b77f432c-bbfe93cd/file"
+                    },
+                    {
+                        "imageId": "adeb74e3-77d58aad-5c50b14f-3ad753de-5a92e1e9/file"
+                    },
+                    {
+                        "imageId": "fd7ce208-96f0eb17-de8b016d-96e21023-dcda4e5f/file"
+                    },
+                    {
+                        "imageId": "7d06cd07-56ceee22-807184c5-6b8b7485-964df050/file"
+                    },
+                    {
+                        "imageId": "631b2b79-8326c821-9a040fee-fe79b188-2f5c71cf/file"
+                    },
+                    {
+                        "imageId": "403263fe-24e92c95-16e6bd4c-0c228df4-78cc4b0e/file"
+                    },
+                    {
+                        "imageId": "14cd4eb6-64b1ffee-7e0cddd5-32034903-5bb848a6/file"
+                    },
+                    {
+                        "imageId": "39e85b7d-e34d10f4-5be4b35f-f603e022-d6962193/file"
+                    },
+                    {
+                        "imageId": "590c9d3e-220d1709-787fe95b-11ad82e7-904f4168/file"
+                    },
+                    {
+                        "imageId": "90932ba2-c56b6d45-b32f70c4-ab0f0d39-02b51d3b/file"
+                    },
+                    {
+                        "imageId": "f6db0f3c-242ed107-39aba2eb-c51de3dc-107ab8dd/file"
+                    },
+                    {
+                        "imageId": "2707b4c9-573e5246-1ddee0c3-c580b667-53a823b9/file"
+                    },
+                    {
+                        "imageId": "448da391-b38b8ea8-56ba0ac2-ea588039-b9f4ee2d/file"
+                    },
+                    {
+                        "imageId": "b587b62c-6823e91d-d718646d-5855fb0b-9f24bb33/file"
+                    },
+                    {
+                        "imageId": "baa7c34a-3319a5e1-a551219e-d525eaee-e07e57dd/file"
+                    },
+                    {
+                        "imageId": "27219342-6da2b792-c925ed99-8042a468-5404d5a9/file"
+                    },
+                    {
+                        "imageId": "78ce4f2a-b49570ec-1e0f4148-20413162-f3cc28ac/file"
+                    },
+                    {
+                        "imageId": "7945d0df-3dfed766-d59c0e8b-6413abe3-76b000f8/file"
+                    },
+                    {
+                        "imageId": "20c7daf2-f7b60796-f6d45d87-a24dad60-44c78d1c/file"
+                    },
+                    {
+                        "imageId": "9b9f304d-8ba66fbb-0ff0ea36-7eff8c27-ec581b41/file"
+                    },
+                    {
+                        "imageId": "8fe53b0b-1263aa20-9af5777f-aa2a047a-5895abe8/file"
+                    },
+                    {
+                        "imageId": "9a875607-896bc3d4-67819a47-daf0eacf-bcecb63d/file"
+                    },
+                    {
+                        "imageId": "0031bb48-5ff972a3-ac05db52-ec630288-1ce3b269/file"
+                    }
+                ]
+            }
+        ]
+    }
+]

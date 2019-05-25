@@ -98,14 +98,22 @@ $.getJSON(studyListFile, function(data) {
           $('.imageViewer').click(function() {
             var filenameurl = "../common/images/"
             var imageid = localStorage.globalval.split(",");
-            console.log("localsto:"+localStorage.globalval[2]);
-            $('#base').attr('src', filenameurl+imageid[0]);
-            $('#cloud').attr('src', filenameurl+imageid[1]);
-            $('#full').attr('src', filenameurl+imageid[2]);
-            $('#high').attr('src', filenameurl+imageid[3]);
-            $('#low').attr('src', filenameurl+imageid[4]);
-            $('#medium').attr('src', filenameurl+imageid[5]);
-            console.log('ooooooooooooooo',$('#base').attr('src'))
+            if (imageid != ''){
+              $('#base').attr('src', filenameurl+imageid[0]);
+              $('#cloud').attr('src', filenameurl+imageid[1]);
+              $('#full').attr('src', filenameurl+imageid[2]);
+              $('#high').attr('src', filenameurl+imageid[3]);
+              $('#low').attr('src', filenameurl+imageid[4]);
+              $('#medium').attr('src', filenameurl+imageid[5]);
+            }
+            else {
+              $('#base').attr('src', filenameurl+imageid[0]);
+              $('#cloud').attr('src', filenameurl+'default_cloud.png');
+              $('#full').attr('src', filenameurl+'default_full.png');
+              $('#high').attr('src', filenameurl+'default_high.png');
+              $('#low').attr('src', filenameurl+'default_low.png');
+              $('#medium').attr('src', filenameurl+'default_medium.png');
+            }
             overlayCopy.removeClass('hidden');
            $('.viewer').load(overlayPath);
             var element = this.parentNode.parentNode;
