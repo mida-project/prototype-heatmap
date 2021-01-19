@@ -2,6 +2,8 @@
 
 <img src="https://github.com/mida-project/meta/blob/master/banners/magnetic-resonance_heatmaps_mi_1000x500.png?raw=true" width="100%"/>
 
+:warning: This repository information is not yet curated. For similar use, please follow the [`prototype-multi-modality-assistant`](https://github.com/mida-project/prototype-multi-modality-assistant) repository on the [MIDA](https://github.com/mida-project) organization.
+
 [MIDA](https://mida-project.github.io/) is a Research Project that deals with the use of a recently proposed technique in literature: [Deep Convolutional Neural Networks (CNN)](https://en.wikipedia.org/wiki/Convolutional_neural_network). These deep networks will incorporate information from several different modes by a User Interface (UI) implemented based on our [Prototype Breast Screening](https://github.com/MIMBCD-UI/prototype-breast-screening) repository. The hereby repository is a mirror of our [Prototype Breast Screening](https://github.com/MIMBCD-UI/prototype-breast-screening) repository which is an Open Source Project with the goal to deliver an example of web based medical imaging platform for the breast cancer diagnosis. We also have several demos to see in our [YouTube Channel](https://www.youtube.com/channel/UCPz4aTIVHekHXTxHTUOLmXw), please follow us.
 
 ## Instructions
